@@ -1,0 +1,35 @@
+{
+  "name": "fabriceditor",
+  "widgetName": "FabricEditor",
+  "version": "1.0.0",
+  "description": "Fabric image editor",
+  "copyright": "© Mendix Technology BV 2022. All rights reserved.",
+  "author": "Conner Charlebois",
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "Apache-2.0",
+  "config": {
+    "projectPath": "/Volumes/[C] Windows 10/MxProjects/ImageAnnotation",
+    "mendixHost": "http://localhost:8080",
+    "developmentPort": 3000
+  },
+  "packagePath": "mendix",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:server",
+    "dev": "pluggable-widgets-tools start:web",
+    "build": "pluggable-widgets-tools build:web",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:web"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^9.0.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "fabric": "^5.2.4",
+    "fabricjs-react": "^1.0.8"
+  }
+}

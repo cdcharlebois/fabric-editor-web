@@ -1,0 +1,12 @@
+/*
+Place your custom CSS here
+*/
+.widget-hello-world {
+
+}
+.fabric-canvas-container {
+    height: 700px
+}
+.fabric-canvas {
+    height: 100%
+}
