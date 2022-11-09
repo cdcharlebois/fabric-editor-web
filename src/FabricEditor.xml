@@ -12,6 +12,13 @@
                 <caption>Default value</caption>
                 <description>Sample text input</description>
             </property>
+            <property key="attrJson" type="attribute" required="false">
+              <caption>JSON attribute</caption>
+              <description>to store the contents of the canvas</description>
+              <attributeTypes>
+                <attributeType name="String" />
+              </attributeTypes>
+            </property>
         </propertyGroup>
     </properties>
 </widget>
