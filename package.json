@@ -10,7 +10,7 @@
   },
   "license": "Apache-2.0",
   "config": {
-    "projectPath": "/Volumes/[C] Windows 10/MxProjects/ImageAnnotation",
+    "projectPath": "/Volumes/[C] Windows 11/Users/conner.charlebois/Mendix/Widgets",
     "mendixHost": "http://localhost:8080",
     "developmentPort": 3000
   },

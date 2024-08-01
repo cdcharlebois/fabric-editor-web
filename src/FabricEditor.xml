@@ -19,6 +19,24 @@
                 <attributeType name="String" />
               </attributeTypes>
             </property>
+            <property key="datasource" type="datasource" required="true" isList="true">
+              <caption>Data Source</caption>
+              <description></description>
+            </property>
+            <property key="objectJSON" type="attribute" required="true" dataSource="datasource">
+              <caption>JSON Attribute</caption>
+              <description></description>
+              <attributeTypes>
+                <attributeType name="String" />
+              </attributeTypes>
+            </property>
+            <property key="objectType" type="attribute" required="false" dataSource="datasource">
+              <caption>Object Type</caption>
+              <description></description>
+              <attributeTypes>
+                <attributeType name="String" />
+              </attributeTypes>
+            </property>
         </propertyGroup>
     </properties>
-</widget>
+</widget> 
